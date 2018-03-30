@@ -12,20 +12,6 @@ import requests
 from textblob import TextBlob
 import codecs
 
-# Ask user for a stock quote
-#stock_quote = input('Enter a stock quote from NASDAQ (e.j: AAPL, FB, GOOGL): ').upper()
-
-# Check if the stock sentiment is positve
-#if not stock_sentiment(stock_quote, num_tweets=10):
-#    print ('This stock has bad sentiment, please re-run the script')
-    #sys.exit()
-
-# Check if we got te historical data
-#if not get_historical(stock_quote):
-#    print ('Google returned a 404, please re-run the script and')
-#    print ('enter a valid stock quote from NASDAQ')
-#    sys.exit()
-
 # convert an array of values into a dataset matrix
 def create_dataset(dataset, look_back=1):
 	dataX, dataY = [], []
